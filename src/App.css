@@ -1,38 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono&display=swap'); 
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Space Mono', monospace;;
+  background-color: #be93d0;
+  display: flex;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5d1595;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  font-family: 'Space Mono', monospace;;
+  flex-direction: row; 
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  text-align: center;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60489a18-9bce-460e-adfe-c32b9abcec20/de0g9kq-0033871e-89f0-4c77-a2c1-65d996d3a0b5.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwNDg5YTE4LTliY2UtNDYwZS1hZGZlLWMzMmI5YWJjZWMyMFwvZGUwZzlrcS0wMDMzODcxZS04OWYwLTRjNzctYTJjMS02NWQ5OTZkM2EwYjUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lE6eJpEKkjj22I-3A97kBiMgO_6yS7TR0dz3Xz_l8_Y');
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  font-family: 'Space Mono', monospace;;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #5d1595;
+  overflow: hidden;
+  font-family: 'Space Mono', monospace;;
+  position: sticky;
+  top:0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 76px;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;;
+  font-size: 32px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #b07cd7;
+  font-family: 'Space Mono', monospace;;
+  color: #f2f2f2;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5d1595;
+  font-family: 'Space Mono', monospace;;
+  color: white;
 }

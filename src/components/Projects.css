@@ -1,0 +1,13 @@
+img{
+    filter: brightness(100%);
+}
+
+img-style2{
+    width: 100%;
+}
+
+.text-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
