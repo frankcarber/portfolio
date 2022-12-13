@@ -1,12 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import About from "./components/About";
-import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Project1 from "./components/Project1";
 import {useState, useEffect} from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
 const words = ["I'm [PLAYER 1].", "I make creative tech & interfaces."];
 
 
@@ -65,7 +61,7 @@ function App() {
         <div class="topnav">          
           <a href="#home">home</a>
           <a href="#project-anchor">projects</a>
-          <a href="#contact">about</a>
+          <a href="#about-anchor">about</a>
         </div>
   
         <body className="App-body" id="home">

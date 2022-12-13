@@ -11,8 +11,7 @@ export default function Projects() {
         <img class = "mountain" src="https://i.imgur.com/0VTr8VG.png">
         </img>
           <div class = "column">
-          <a id="project-anchor">
-            <div class = "big-text">
+            <div class = "big-text" id = "project-anchor">
               <br></br>
               DESIGN PROJECTS
             </div>
@@ -23,7 +22,6 @@ export default function Projects() {
               <div class="tags">User Research</div>
               <div class="tags">Conceptual Design</div>
             </div>
-            </a>
             <h3>
             Problem Statement: Survey real customers at MetroMart to understand 
             how users interact with a digital checkout interface.
@@ -114,7 +112,7 @@ export default function Projects() {
 
       <section class = "third-section">
       <div class = "second-col-left">
-          <img src = "https://i.imgur.com/56bBz9Y.jpg" style = {{width: 1000, height: 700}}>
+          <img class = "big-img" src = "https://i.imgur.com/56bBz9Y.jpg">
           </img>
       </div>  
       </section>
@@ -322,16 +320,152 @@ export default function Projects() {
           </br>
           View the full responsive site: <a href="https://existentialmom.github.io/alshamiwebsite/" target="_blank">Al Shami Redesign</a>
         </p>
+        <br>
+              </br>
+              <br>
+              </br>
+              <br>
+              </br>
+      </div>
+    </section>
+
+    <section class = "second-section">
+        <div class = "first-col-left">
+              <br>
+              </br>
+              <br>
+              </br>
+          <h1>Neumorphic Music App</h1>
+          <div class="little-label">2022 · Speculative Project</div>
+            <div class="tags-body">
+              <div class="tags">UI/UX Design</div>
+              <div class="tags">Competitive Analysis</div>
+              <div class="tags">Conceptual Design</div>
+            </div>
+            <h3>
+            The Task:
+            Design an audiobook mobile app with neurmorphic inspired visuals for the interface design.
+            <br></br>
+            </h3>
+        </div>
+      </section>
+
+    <section class = "second-section">
+      <div class = "second-col-left">
+      <h3>Step 0: Research </h3>
+          <p class="inner-col-text">
+          After 3 meaningful days of online research of data and articles, I came accross some interesting findings:
+          <ul>
+              <li>Millennials & Gen Z are among the highest usage rates for streaming services</li>
+              <li>"Ease of use" was the top reason reported for listening to audiobooks</li>
+              <li>Spotify (#1 streaming platform for millennials) reported that the 
+                "Your Music" page was a key driver for keeping people on the app</li>
+          </ul>
+        </p>
+      </div>
+      <div class = "second-col-right">
+      <h3>Step 1: Identify Patterns </h3>
+          <p class="inner-col-text">
+          As I continued to research, I started noticing there was a pattern 
+          in the types of issues audiobook listeners had. I consolidated these findings into some basic 'pain points', 
+          things that users might like to have solved by a product, such as:
+          <ol type="1">
+              <li>People who listen to audiobooks tend to do so while multitasking, needing a simple interface</li>
+              <li>Mobile app users strongly prefer "personalized" experiences</li>
+              <li>High levels of stress creates a desire for products that are easy and soothing to use</li>
+          </ol>
+        </p>
+      </div>
+    </section>
+
+    <section class = "second-section">
+      <div class = "second-col-left">
+      <h3>Step 2: Exploratory Design </h3>
+      <p class = "inner-col-text">
+        With these insights in mind, I sought out some design inspiration by searching out modern design trends that solved these pain points
+        keeping track of these sources of inspiration with a moodboard.
+      </p>
+      </div>
+    </section>
+
+    <section class = "second-section">
+      <div class = "second-col-left">
+          <img class = "big-img" src = "https://i.imgur.com/V0lQ4fd.png">
+          </img>
+      </div>  
+      </section>
+
+      <section class = "second-section">
+      <div class = "second-col-left">
+        <img class = "col-img" src = "https://i.imgur.com/6jaMip8.png"></img>
+      </div>
+      <div class = "second-col-right">
+        <h3>Step 3: Sketches</h3>
+            <p class="inner-col-text">
+              With inspiration from the moodboard, I started mocking up sketches, 
+              keeping in mind how the visual design and overall functionality of the 
+              site could contribute to solving the user pain points and creating 
+              a calming experience for listeners.
+          </p>
+          
+      </div>
+    </section>
+
+
+    <section class = "second-section">
+      <div class = "second-col-left">
+      <h3>Step 4: Hi-fidelity Designs</h3>
+          <p class="inner-col-text">
+          After UI & Design Discovery, I moved on to creating high-fidelity prototypes. 
+          I used brand guidelines and the visual inspiration from the design discovery 
+          phase to create the cards, colors, and buttons. 
+          To give the app a modern effect and distinct appearance from similar apps, 
+          I designed new gradients for a modern effect. Here's the final designs.
+        </p>
+      </div>
+      <div class = "second-col-right">
+        <img class = "col-img-big" src = "https://i.imgur.com/jxETciB.png"></img>
+      </div>
+    </section>
+
+
+    <section class = "second-section">
+      <div class = "second-col-left">
+      <h3>Conclusion</h3>
+      <p class = "inner-col-text">
+        <h4>Reflection: What I learned</h4>
+        Overall, I really enjoyed getting to design this app. 
+        As a music and audiobook lover, it was really enjoyable to learn about 
+        the motivations and pain points behind using streaming services. 
+        This was also my first time creating a style guide and 
+        I found that the experience was hugely influential my design. 
+        I also got to spend a lot of time looking at designs for inspiration 
+        in Dribble and Behance, 
+        which gave me inspiration for this project and as well as projects to come!
+      </p>
       </div>
     </section>
 
 
 
     <section class = "second-section">
-        <img class = "mountain" src="https://i.imgur.com/EEGBJSq.png">
+        <img class = "mountain" src="https://i.imgur.com/0VTr8VG.png">
           </img>
     </section>
 
+    <section class = "about-section" id="about-anchor">
+        <div class = "first-col-left">
+          <h1>About Me</h1>
+          <div class="little-label">UX Designer · Creative Technologist · Student</div>
+          <h3>
+              Hey again! My name is [PLAYER 1]. I'm a designer based out of Providence, RI.
+              I'm inspired by 1980s and early-90s internet designs, bringing a nostalgic 
+              and surreal feel to my designs.
+              <br></br>
+              <br></br>
+              </h3>
+        </div>
+    </section>
 
     </section>
     </body>
