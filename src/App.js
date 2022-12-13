@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Project1 from "./components/Project1";
 import {useState, useEffect} from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-const words = ["I'm [PLAYER 1].", "I specialize in creative tech & design."];
+const words = ["I'm [PLAYER 1].", "I make creative tech & interfaces."];
 
 
 
@@ -61,12 +61,14 @@ function App() {
   return (
     <main>
       <div>
+      
         <div class="topnav">          
-          <a href="#contact">home</a>
+          <a href="#home">home</a>
           <a href="#project-anchor">projects</a>
           <a href="#contact">about</a>
         </div>
-        <body className="App-body">
+  
+        <body className="App-body" id="home">
           <div class = "h1-top">
             <h1> Hello! {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`} </h1>
           </div>

@@ -3,6 +3,7 @@ import './About.css';
 
 export default function About() {
     return (
+ 
       <section class = "fit" id="about">
           <div className="centered">
             <p className="text">
@@ -17,13 +18,12 @@ export default function About() {
           <div className="centered">
             <a href = "#project-anchor">
               <p className="text">
-              ↓ explore my projects below ↓
-              </p>
-            
-        </a>
-            
+                ↓ explore my projects below ↓
+              </p>        
+            </a>
         </div>
 
       </section>
+
     );
   }
