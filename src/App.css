@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono&display=swap'); 
 
+h1-top{
+  height: 10vh
+}
 .App {
   text-align: center;
   font-family: 'Space Mono', monospace;;
@@ -37,21 +40,25 @@
 .topnav {
   background-color: #5d1595;
   overflow: hidden;
-  font-family: 'Space Mono', monospace;;
-  position: sticky;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Space Mono', monospace;
   top:0;
+  position: sticky;
+  z-index: 1;
   width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  position: sticky;
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 24px 76px;
+  padding: 8px 40px;
   text-decoration: none;
   font-family: 'Space Mono', monospace;;
-  font-size: 32px;
+  font-size: 18px;
 }
 
 /* Change the color of links on hover */

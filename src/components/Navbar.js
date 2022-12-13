@@ -1,4 +1,7 @@
 import React from "react";
+import './About.css';
+
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
