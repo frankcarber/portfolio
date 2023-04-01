@@ -12,8 +12,7 @@ export default function About() {
           </div>
 
           <div className='bg-image hover-zoom'>
-            <img src='https://tenor.com/bEzTB.gif' style={{width:400, height:300}}/>
-          </div>
+          <div class="tenor-gif-embed" data-postid="22025093" data-share-method="host" data-aspect-ratio="1.04918" data-width="100%"><a href="https://tenor.com/view/lpscurse-gif-22025093">Lpscurse Sticker</a>from <a href="https://tenor.com/search/lpscurse-stickers">Lpscurse Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>          </div>
 
           <div className="centered">
             <a href = "#project-anchor">
