@@ -12,7 +12,7 @@ export default function About() {
           </div>
 
           <div className='bg-image hover-zoom'>
-            <img src='https://i.pinimg.com/originals/ed/76/df/ed76df1b5da78ca7317a01cf9a648d0c.gif' style={{width:400, height:300}}/>
+            <img src='https://tenor.com/bEzTB.gif' style={{width:400, height:300}}/>
           </div>
 
           <div className="centered">
